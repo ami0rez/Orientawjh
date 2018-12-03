@@ -1,0 +1,160 @@
+body{
+
+}
+div#prof{
+
+    float: left;
+    width: 300px;
+    height: 100%;
+    background-color: black;
+}
+h3,p{
+  color: white;
+}
+img{
+  margin-top: 10%;
+  width: 100%;
+  border-radius: 10%;
+}
+div#do{
+      float: left;
+}
+
+
+div#do div {
+  width: 200px;
+  margin: 30px;
+}
+
+h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 200px;
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+.choices{
+  margin-top: 7%;
+  margin-left: 3%;
+  border: black solid 3px;
+  float: left;
+  width: 45%;
+  height: 68%;
+  border-radius: 9px;
+}
+.choices .pan{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 13%;
+}
+.choices .connect{
+  overflow-y: auto;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+  height: 87%;
+}
+ul.cho {
+  padding: 0;
+  float: left;
+  list-style-type: none;
+  width:100%;
+  margin-left: 0;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+.cho h3{
+  margin:5px;
+}
+.cho li img {
+  max-width: 150px;
+  max-height: 170px;
+  float: left;
+  margin: 0 15px 0 0;
+  border-radius:10px;
+}
+.cho li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.cho li {
+  margin-left: 0;
+  padding: 10px;
+  overflow: auto;
+  border-bottom: gray solid 1px;
+  border-bottom-left-radius: 18px;
+  width:100%;
+}
+.cho li.hide{
+  display: hidden;
+}
+.cho li.show{
+  display: block;
+}
+.cho li:hover {
+  background: #eee;
+  cursor: pointer;
+  border-bottom: black solid 3px;
+}
+.cho li a{
+  float:right;
+  background-color:#219294;
+  width:100px;
+  margin-right:20px;
+  border-radius:3px;
+  color:white;
+  padding-left:8px;
+  border:white solid 1px;
+}
+.pan button{
+  margin:1%;
+  height:80%;
+  margin-right:0;
+  width:14%;
+  border-radius:7px;
+  background-color:inherit;
+  border:white solid 1px;
+  color:white;
+  font-size:13pt;
+  cursor:pointer;
+}
+.cho li.lieco {
+  background: green;
+}
+.cho li.licon {
+  background: orange;
+}
+.cho li.libou {
+  background: blue;
+}

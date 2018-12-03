@@ -1,0 +1,337 @@
+body{
+  margin:0;
+  padding:0;
+  overflow-y: hidden;
+}
+div#main {
+  background-color: #fafafa;
+  height: 87%;
+  overflow: hidden;
+  border-radius: 10px;
+  display: block;
+  width: 880px;
+  margin: auto;
+  margin-top: 3%;
+  border:   #1a237e solid 2px;
+  box-shadow: 5px 5px 9px  #1a237e;
+  float: left;
+  overflow: hidden;
+  margin-left:.9%;
+}
+ul {
+  padding: 0;
+  float: left;
+  list-style-type: none;
+  max-width: 500px;
+  min-width: 400px;
+  margin-left: 0;
+  margin-top:0;;;
+  border: #1a237e solid 2px;
+  height: 99%;
+  overflow-y: auto;
+  box-shadow: 5px 5px 9px  #1a237e;
+  background-color: #f5f5f5;
+}
+h1 {
+    background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #797979;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+div.panel{
+
+
+}
+li img {
+  max-width: 150px;
+  max-height: 170px;
+  float: left;
+  margin: 0 15px 0 0;
+}
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+li {
+  margin-left: 0;
+  padding: 10px;
+  overflow: auto;
+  border-bottom: gray solid 1px;
+  border-bottom-left-radius: 18px;
+}
+
+li:hover {
+  background: #fafafa;
+  cursor: pointer;
+  border-bottom: #1a237e solid 2px;
+  box-shadow: 8px 8px 8px gray;
+}
+/* Style the tab */
+div.tab {
+   width: 200px;
+   float: left;
+   overflow: hidden;
+   border: 1px solid #ccc;
+   background-color: #f1f1f1;
+  height: 99.5%;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+   width: 200px;
+   background-color: inherit;
+   font-size: 15pt;
+   float: left;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 20px 16px;
+   transition: 0.5s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+   background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+  border: solid black 1px;
+  border-radius: 4px;
+   background-color:  #3e94ec;
+}
+
+/* Style the tab content */
+.tabcontent {
+   display: flex;
+   float: left;
+  overflow-y: hidden;
+  min-block-size: 500px;
+   border: 1px solid #ccc;
+   background-color: #3e94ec;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   width: 500px;
+   padding: 30px;
+   margin: auto;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+   -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+   -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+   height: 89.4%;
+}
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+input[type="text"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    width: %;
+    color: white;
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 5px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 40px;
+}
+input[type="text"].general{
+
+    outline: none;
+    width: 100%;
+    color: white;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 5px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 40px;
+}
+.panel{
+  border: black solid 3px;
+  border-radius: 7px;
+  background-color: rgba(0,0,0,0.5);
+  height: 50px;
+  display: block;
+  overflow: hidden;
+}
+.panel input[type='text']{
+  width: 90%;
+  font-size: 17pt;
+  text-align: center;
+}
+div#lieu input[type='text']{
+  width: 30%
+}
+.panel button{
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  height: 100%;
+  width: 45px;
+  font-size: 17pt;
+  color: white;
+  cursor:pointer;
+}
+div#lieu button{
+  width: 37px;
+}
+button[type="button"],
+button[type="submit"]{
+     margin-top: 8px;
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+   width: 100px
+}
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34C0CA 5%, #30C9B0 10%);
+    border: none;
+    color: white;
+}
+.contents{
+  margin-top: 20px;
+  height:  500px;
+  overflow-y: auto;
+}
+table{
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  max-height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}

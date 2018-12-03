@@ -1,0 +1,104 @@
+form{
+  display: block;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+form#lieu{
+  border: black 4px solid;
+  height: 200px;
+  overflow-y: auto;
+}
+form#lieu div.panel{
+  width: 30%;
+  height: 100%;
+  border: red solid 2px;
+  float: left;
+}
+form#lieu div.contents{
+  width: 68%;
+  height: 100%;
+  border: orange solid 2px;
+  float: left;
+  overflow-y: auto;
+}
+form#horizon{
+  min-width:28%;
+  max-width: 30%;
+  border: red 4px solid;
+  height: 200px;
+  overflow-y: auto;
+}
+form#horizon div.panel{
+  width: 100%;
+  height: 20%%;
+  border: red solid 2px;
+  float: left;
+}
+form#horizon div.contents{
+  height: 79%;
+  float: left;
+  overflow-y: scroll;
+}
+form#diplome{
+  min-width:28%;
+  max-width: 30%;
+  border: green 4px solid;
+  height: 200px;
+  overflow-y: auto;
+}
+form#diplome div.panel{
+  width: 100%;
+  height: 20%%;
+  border: red solid 2px;
+  float: left;
+}
+form#diplome div.contents{
+  width: 100%;
+  height: 79%;
+  float: left;
+  overflow-y: scroll;
+}
+form#filliere{
+  min-width:28%;
+  max-width: 30%;
+  border: yellow 4px solid;
+  height: 200px;
+  overflow-y: auto;
+}
+form#filliere div.panel{
+  width: 100%;
+  height: 20%%;
+  border: red solid 2px;
+  float: left;
+}
+form#filliere div.contents{
+  width: 100%;
+  height: 79%;
+  float: left;
+  overflow-y: scroll;
+}
+form#condition{
+  border: purple 4px solid;
+  height: 200px;
+  overflow-y: auto;
+}
+form#condition div.panel{
+  width: 30%;
+  height: 100%;
+  border: red solid 2px;
+  float: left;
+}
+form#condition div.contents{
+  width: 68%;
+  height: 100%;
+  border: orange solid 2px;
+  float: left;
+  overflow-y: auto;
+}
+button{
+  width: 90px;
+  height: 30px;
+}
+
+body{
+}
